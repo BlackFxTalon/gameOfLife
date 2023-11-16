@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #gameOfLife {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #gameCanvas {
+    border: 1px solid #ccc;
+  }

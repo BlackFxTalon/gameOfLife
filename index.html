@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="gameOfLife">
+  <label for="colsInput">колонки:</label>
+  <input type="number" id="colsInput" value="60">
+  <label for="rowsInput">ряды:</label>
+  <input type="number" id="rowsInput" value="40">
+  <button id="resizeBtn">Изменить размерность сетки</button>
+  <label for="gridCell">Размер ячейки сетки:</label>
+  <input type="number" id="gridCell" value="10">
+  <button id="gridCellBtn">Изменить размер ячейки сетки</button>
+  <button id="nextGenBtn">Сгенерировать новое поколение</button>
+  <p id="generationTime"></p>
+  <canvas id="gameCanvas" width="300" height="300"></canvas>
+  </div>
+</body>
+</html>
